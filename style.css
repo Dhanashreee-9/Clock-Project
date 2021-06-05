@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(100deg,#e66465 0%,#4d9f0c 100%);
+}
+
+.heading{
+    text-align: center;
+    font-size: 2rem;
+    color:brown;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid royalblue;
+    height: 30vh;
+    width: 30vw;
+    font-size: 2rem;
+    color: #FFFFFF;
+    background: #333333;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00; 
+    -webkit-box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+
+@media only screen and (max-width: 400px) {
+    .clock{
+        font-size: 0.5rem;
+        display: inline-block;
+    }
+   }
+
+@media only screen and (max-width: 600px) {
+   .clock{
+       font-size: 1rem;
+   }
+  }
+
+  @media only screen and (max-width: 800px) {
+    .clock {
+      font-size: 1.5rem;
+    }
+  }
